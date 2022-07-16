@@ -1,5 +1,7 @@
 20220716
 new bot
+improve exodus script
+improve init script
 
 
 20220715

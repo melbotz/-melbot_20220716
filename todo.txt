@@ -18,6 +18,8 @@ sidebar
 
 script to exodus
 script to init
+script to deploy
+list of deploy links
 
 cleanup
 improve readme
