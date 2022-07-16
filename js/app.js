@@ -33,14 +33,29 @@ render(
               <p>
               Energy: ${doc.energy} Marks <br/>
               Birth: ${doc.birth} <br/>
-        Prev: <a style="color: blue" href="${doc.previous}">${di
-      .data.previous}</a> <br/>
-        Next: <a style="color: blue" href="${doc.next}">${doc
-      .next}</a> <br/>
       Address: <a style="color: blue" href="https://chainz.cryptoid.info/marks/address.dws?${di
       .data.address}.htm" target="_blank">${doc.address}</a> <br/>
         Nostr: <a  style="color: blue" href="http://bitbots.org:2617/?pubkey=${doc.nostrkey}" target="_blank">${doc.nostrkey}</a>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
 
+        <div style="margin-top: auto">
+        <button class="btn b-gray large"><a style="color: blue" href="${doc.previous}">⏪</a></button>
+        
+        <button class="btn b-gray large"><a style="color: blue" href="${doc.next}">⏩</a></button>
+        </div>
+        
               </p>
             </div>
 
